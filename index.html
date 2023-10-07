@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenidos</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top colornav">
+            <div class="container-fluid">
+              <a class="navbar-brand colortexto" href="#">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link active colortexto" aria-current="page" href="#nosotros">Quiénes somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link colortexto" href="#contacto">Contacto</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle colortexto" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Productos
+                    </a>
+                    <ul class="dropdown-menu colormenu">
+                      <li><a class="dropdown-item colortexto" href="#tortas">Tortas</a></li>
+                      <li><a class="dropdown-item colortexto" href="#">Tartas</a></li>
+                      <li><a class="dropdown-item colortexto" href="#">Alfajores</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item colortexto" href="#pedidosp">Pedido personalizado</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    
+    <script src="assets/jss/bootstrap.bundle.min.js"></script>
+
+    <!-- Empieza el carrusel -->
+
+    <section class="col-7 mx-auto">
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" >
+            <img src="assets/img/carrus.jpg" class="d-block w-100" alt="tarta">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/carrusel1.JPG" class="d-block w-100" alt="nosotros">
+            <div class="carousel-caption d-none d-md-block">
+                <p class="textocarru">Tarta de turrón salteño</p>
+            </div>
+          </div>
+          <div class="carousel-item" >
+            <img src="assets/img/carrusel3.JPG" class="d-block w-100" alt="otra torta">
+            <div class="carousel-caption d-none d-md-block">
+              <p class="textocarru">Tarta Max</p>
+            </div>
+          </div>
+          <div class="carousel-item" >
+            <img src="assets/img/carrusel4.JPG" class="d-block w-100" alt="otra torta">
+            <div class="carousel-caption d-none d-md-block">
+              <p>Tarta de turrón salteño</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <br><br id="tortas"><br><br>
+ <!-- Comienzo de cartas -->
+ <h1 class="subtituloint">Catálogo de tortas</h1>
+ <br><br>
+ <div class="container">
+    <div class="row gy-3">
+        <div class="col-md-4">
+            <div class="card h-100">
+                <img src="assets/img/fotoa.JPG" class="card-img-top" alt="foto1">
+                <div class="card-body bodycard">
+                  <p class="card text titulocard">ROGEL</p>
+                  <p class="card-text descripcioncard">Capas de masa símil hojaldre, relleno de dulce de leche. Decorado con merengue italiano..</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100">
+                <img src="assets/img/fotoc.JPG" class="card-img-top" alt="foto2">
+                <div class="card-body bodycard">
+                  <p class="card text titulocard">TIA SILVIA</p>
+                  <p class="card-text descripcioncard">Bizcochuelo de vainilla y bizcochuelo de chocolate con relleno de crema de dulce de leche. Decoración con merengue italiano</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100">
+                <img src="assets/img/fotob.JPG" class="card-img-top" alt="foto3">
+                <div class="card-body bodycard">
+                  <p class="card text titulocard">CAMILA</p>
+                  <p class="card-text descripcioncard">Piononos de vainilla con dulce de leche(poco), crema chantilly, merenguitos y frutillas o duraznos (fuera de estación pulpa de frutilla). Decorada con merengue italiano.</p>
+                </div>
+              </div>
+        </div>
+    </div>
+ </div>
+ <br id="pedidosp"><br><br>
+ <!-- Comienza Pedido personalizado -->
+ <h1 class="subtituloint">Pedidos personalizados</h1>
+ <br>
+ <div class="container">
+  <h5 class="h3int">Si deseas consultar sobre sabores, tamaños de tortas disponibles o hacer un pedido personalizado, ingresá tus datos y nos contactaremos a tu email.</h5>
+  <br>
+  <div class="mb-3 formulario">
+    <label for="email" class="form-label">Email</label>
+    <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
+  </div>
+  <div class="mb-3 formulario">
+    <label for="nombreapellido" class="form-label">Nombre y Apellido</label>
+    <input type="text" class="form-control" id="nombreapellido">
+  </div>
+  <div class="mb-3 formulario">
+    <label for="pedido" class="form-label">Ingrese el pedido</label>
+    <textarea class="form-control" id="pedido" rows="3"></textarea>
+  </div>
+  <div class="mb-3 formulario">
+    <button type="submit" class="botonform">Enviar</button>
+  </div>
+ </div>
+ <br id="nosotros"><br><br>
+ <!-- Comienza quienes somos -->
+<h1 class="subtituloint">Un poco sobre nosotros, sobre Dulce Salteñita!</h1>
+<br><br>
+<div class="container">
+    <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-3">
+            <img src="assets/img/fliaa.jpg" class="img-fluid rounded-start" alt="fotofamiliar">
+          </div>
+          <div class="col-md-9">
+            <div class="card-body cardhorizontal wx-auto">
+              <h5 class="card-title textotitulocard">Familia Páez-Abarza</h5>
+              <p class="card-text textobodycard">Nuestro emprendimiento familiar Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis sunt, voluptas impedit provident fugit libero quidem pariatur ducimus quaerat ab itaque! Obcaecati rem nemo minus minima! Ratione amet asperiores nesciunt. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque laudantium itaque eligendi amet modi, natus ipsa! Dicta quod reprehenderit totam quas quis, excepturi, nobis dolores vero temporibus laborum pariatur error!Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere necessitatibus rerum voluptatibus. Officia numquam maiores, odit libero quisquam ipsam eos, vitae debitis iure atque perspiciatis eligendi id repellendus, ad dolor. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint obcaecati eaque deserunt nesciunt, ex accusantium, sunt non assumenda quam libero pariatur. Temporibus aliquam rem maiores eum ipsum! Dolores, ipsum dignissimos!repellendus, ad dolor. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint obcaecati eaque deserunt nesciunt, ex accum jdjflfbuanso huno huub sum dignissimos!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+<br id="contacto">
+<!-- Comienza footer -->
+<br>
+<footer class="pt-2 pb-2 footer">
+  <p class="txtfooter">Nos podés encontrar en:</p>
+  <div class="text-center ">
+    <ul class="list-unstyled list-inline">
+      <li class="list-inline-item">
+        <a href="https://www.instagram.com/dulcesaltenita"><i class="fa-brands fa-instagram icono"></i></a>
+      </li>
+      <li class="list-inline-item">
+        <a href="https://api.whatsapp.com/message/AMRZQKKP6LRAI1?autoload=1&app_absent=0"><i class="fa-brands fa-whatsapp icono"></i></a>
+      </li>
+      <li class="list-inline-item">
+        <a href="https://www.google.com/maps/place/DULCE+SALTE%C3%91ITA/@-24.7359168,-65.4000327,17z/data=!3m1!4b1!4m6!3m5!1s0x941bc10af161dad5:0x533b82019ef448f8!8m2!3d-24.7359217!4d-65.3974578!16s%2Fg%2F11fgg_1_3n?authuser=0&entry=ttu"><i class="fa-solid fa-location-dot icono"></i></a>
+      </li>
+      <li class="frasefooter">"Sabores que endulzan el alma"</li>
+    </ul>
+  </div>
+</footer>
+</body>
+</html>
